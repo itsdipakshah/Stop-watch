@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    display: flex;
+    background: #414141;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.heading{
+    margin-bottom: 12px;
+    font-size: 40px;
+    font-weight: 600;
+    color: skyblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+span{
+    color: orange;
+}
+.stopwatch{
+    padding: 20px 30px;
+    background-color: black;
+    border-radius: 10px;
+    /* width: 30%; */
+    /* justify-content: center; */
+    /* align-items: center; */
+
+}
+
+.timecounter{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.buttons{
+    margin-top: 20px;
+
+
+}
+.btn{
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: white;
+    background-color: aqua;
+    padding: 12px 24px;
+    border-radius: 10px;
+    margin-inline: 11px;
+}
+
+.footer{
+    margin-top: 10px;
+    font-size: 12px;
+    color: gray;
+}
